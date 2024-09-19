@@ -1,0 +1,234 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar .nav-link {
+    display: flex;
+    justify-content: center;
+    color:#fff;
+    font-weight: bold;
+}
+
+
+
+body {
+    background: url("images/background.avif");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.navbar .navbar-brand {
+    font-size: 36px;
+    color: #337ab7;
+    font-weight: bold;
+}
+
+.navbar .nav-item {
+    font-size: 24px;
+    padding: 10px;
+   
+}
+
+#main #rightCol {
+    padding: 10px;
+    background: #fff;
+}
+
+#main #leftCol {
+    padding: 0px;
+}
+
+#main h2 {
+    text-align: center;
+    margin-top: 75px;
+}
+
+#main .top-text {
+    margin-top: 50px;
+}
+
+#main p {
+    padding: 20px;
+}
+
+#main .buttons {
+    display: flex;
+    justify-content: start;
+    margin-bottom: 50px;
+}
+
+#main #button2 {
+    margin-left: 10px;
+}
+
+#main #button1 {
+    margin-left: 20px;
+}
+
+#services #rightCol {
+    background: url("images/second-image.avif");
+    height: 500px;
+    padding: 10px;
+}
+
+#services #leftCol {
+    background: #fff;
+    padding: 10px;
+}
+
+#services h2 {
+    margin-top: 50px;
+    font-size: 24px;
+    margin-left: 10px;
+}
+
+#services p {
+    margin-left: 10px;
+}
+
+
+@media  (max-width: 990px) {
+    #services .container {
+        margin-top: 50px;
+    }
+    #services .row {
+        flex-direction: column-reverse;
+    }
+    #clients .container {
+        margin-top: 50px;
+    }
+    #contact .container {
+        margin-top: 50px;
+    }
+    #contact #rightCol {
+        display: none;
+    }
+   
+    #info .container {
+        margin-top: 50px;
+    } 
+    .navbar .navbar-brand {
+        justify-content: center;
+    }
+}
+
+
+@media  (max-width: 500px) {
+#contact #name {
+    width: 40%;
+}
+#contact #email {
+    width: 40%;
+}
+#contact textarea {
+    width: 250px;
+}
+#contact #subject {
+    width: 250px;
+}
+
+}
+    
+
+
+#clients #leftCol {
+    background: url("images/clients-image.avif");
+    height: 500px;
+}
+
+#clients #rightCol {
+    background: #fff;
+    padding: 10px;
+}
+
+#clients h2 {
+    margin-top: 50px;
+    margin-left: 10px;
+    font-size: 24px;
+}
+
+#clients p {
+    margin-left: 10px;
+}
+
+#clients .buttons {
+    margin-top: 50px;
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+#clients button {
+    margin-left: 20px;
+}
+
+#contact #rightCol {
+    background: url("images/contact-image.avif");
+    height: 740px;
+    width: 50%;
+    background-position: center;
+}
+
+#contact #leftCol {
+    background: #fff;
+}
+
+#contact h2{
+    margin-top: 50px;
+    margin-left: 10px;
+    font-size: 24px; 
+}
+
+#contact p {
+    margin-left: 10px;
+}
+
+#contact input {
+    margin-left: 10px;
+    padding: 10px;
+}
+
+#contact textarea {
+    margin-left: 10px;
+    padding: 10px;
+}
+
+#contact .form {
+    display: flex;
+    justify-content: center;
+}
+
+#contact button {
+    margin-left: 10px;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+
+#info #leftCol {
+    background: url("images/info-image.avif");
+    height: 350px;
+    background-position: center;
+}
+
+#info #rightCol {
+    background: #fff;
+}
+
+#info h2 {
+    margin-top: 100px;
+    margin-left: 20px;
+    font-size: 24px; 
+}
+
+#info p {
+    margin-left: 20px;
+    margin-top: 50px;
+}
+
+#footer p {
+    text-align: center;
+    color: #fff;
+    margin-top: 50px;
+}
